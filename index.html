@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+		<title>List To Do</title>
+	</head>
+	<body>
+		<div id="root">
+			<div class="container">
+				<header>
+					<h1>TO DO LIST</h1>
+					<form id="add-task-form">
+						<input type="text" placeholder="Add a new task" required/>
+						<button class="btn--submit" type="submit">Add</button>
+					</form>
+				</header>
+				<main>
+					<ul id="list-task-to-do">
+					</ul>
+				</main>
+				<footer>
+					<button class="btn--clear" id="clear-task-btn">Clear All</button>
+				</footer>
+			</div>
+		</div>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
